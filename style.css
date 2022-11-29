@@ -1,0 +1,212 @@
+
+.logo_container, .logo, .main_content, .container_about, .about, .namepartners_cont, .partner, .cotainerdelivery {
+    display: flex;
+}
+.background_botton, .order, .order1, .order2, .picture1, .picture2, .picture3, .picture4, .pictureplant, .fish1, .fish2, .fish3, .pictureplant2, .pictureplant3, .picturechilli, .mushroom, .leaf {
+    position: absolute;
+}
+.doordash, .ubereats, .favor, .grubhub {
+    position: relative;
+}
+
+
+.logo_container {
+    height: 85px;
+    align-items: flex-end;
+}
+.logo {
+    width: 225px;
+    height: 50px;
+    margin-left: 70px;
+}
+.main_content {
+    width: 562px;
+    height: 368px;
+    margin-left: 70px;
+    margin-top: 198px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.name {
+    font-family: Cabin Sketch, Georgia, Times, serif;
+    font-weight: 700;
+    font-size: 81px;
+    margin: 0 -2px
+}
+.container_about{
+    width: 441px;
+    height: 66px;
+    margin-top: 35px;
+
+}
+.about {
+    font-family: Roboto, Georgia, Times, serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+}
+.background_botton {
+    width: 264px;
+    height: 132px;
+    top: 601px;
+    left: 37px;
+}
+.order {
+    top: 625px;
+    left: 112px;
+    color: white;
+    font-family: Roboto, Georgia, Times, serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+}
+.order1 {
+    top: 642px;
+    left: 122px;
+    color: white;
+    font-family: Roboto, Georgia, Times, serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 22px;
+}
+.order2 {
+    text-decoration: none;
+    top: 637px;
+    left: 320px;
+    color: black;
+    font-family: Roboto, Georgia, Times, serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+.order2:hover {
+    text-decoration: underline;
+    color: black;
+}
+.picture1 {
+    height: 135px;
+    width: 170px;
+    left: 146px;
+    top: 793px;
+}
+.picture2 {
+    height: 822px;
+    width: 780px;
+    right: 0;
+    top: 58px;
+
+}
+.picture3 {
+    height: 707px;
+    width: 707px;
+    right: 20px;
+    top: 111px;
+}
+.picture4 {
+    height: 800px;
+    width: 775px;
+    top: 80px;
+    right: 0;
+}
+.pictureplant {
+    height: 200px;
+    width: 170px;
+    right: 25px;
+    top: 16px;
+}
+.fish1 {
+    width: 200px;
+    height: 200px;
+    top: 250px;
+    right: -13px;
+}
+.fish2 {
+    width: 230px;
+    height: 230px;
+    top: 400px;
+    right: 623px;
+}
+.fish3 {
+    width: 240px;
+    height: 240px;
+    top: 1295px;
+    right: 515px;
+}
+.pictureplant2 {
+    height: 200px;
+    width: 170px;
+    right: 400px;
+    top: 675px;
+}
+.pictureplant3 {
+    height: 200px;
+    width: 170px;
+    left: 350px;
+    top: 1390px;
+}
+.picturechilli {
+    width: 216px;
+    top: 700px;
+    right: 25px; 
+}
+.mushroom {
+    width: 100px;
+    height: 90px;
+    top: 147px;
+    right: 506px;
+}
+.leaf {
+    width: 130px;
+    top: 840px;
+    left: 633px;
+}
+.namepartners_cont {
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: -20px;
+}
+.namepartner {
+    font-family: Roboto, Georgia, Times, serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+}
+.partner {
+    flex-direction: row;
+    height: 350px;
+    width: 348px;
+    border-radius: 50px;
+    z-index: 2;
+}
+.doordash {
+    width: 247px;
+    height: 54px;
+    top: 150px;
+    right: 300px;
+}
+.ubereats {
+    width: 178px;
+    height: 131px;
+    top: 105px;
+    right: 260px;
+}
+.favor {
+    width: 171px;
+    height: 37px;
+    top: 150px;
+    right: 260px;
+}
+.grubhub {
+    width: 177px;
+    height: 37px;
+    top: 150px;
+    right: 260px;
+}
+.cotainerdelivery {
+    justify-content: center;
+    margin-top: 320px;
+}
+
+
